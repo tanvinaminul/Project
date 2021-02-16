@@ -1,0 +1,186 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thesis / Project Report
+% LaTeX Template
+% Version 2.0 (08/04/16)
+%
+% Author:
+% Aminul
+% https://github.com/sidcode/bits-pilani-thesis-
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+\documentclass[12pt, a4paper, oneside]{Thesis} % Paper size, default font size
+                                               % and one-sided paper
+\renewcommand{\bibname}{References}
+\graphicspath{{Figures/}} % Specifies the directory where pictures are stored
+
+\usepackage[square, numbers, comma, sort&compress]{natbib}  % Use the "Natbib" style for the references in the Bibliography
+
+\usepackage{verbatim} %for using multi-line comment block
+
+\title{\ttitle} % Defines the thesis title - don't touch this
+
+\begin{document}
+
+\frontmatter % Use roman numbering style (i, ii...) for the pre-content pages
+
+\setstretch{1.3} % Line spacing of 1.3
+
+% Define page headers using FancyHdr package and set up for one-sided printing
+\fancyhead{} % Clears all page headers and footers
+\rhead{\thepage} % Sets the right side header to show the page number
+\lhead{} % Clears the left side page header
+
+\pagestyle{fancy} % Finally, use the "fancy" page style to implement the
+                  %FancyHdr headers
+
+% Input all the variables used in the document. Please fill out the
+% variables.tex file with all your details.
+\input{variables}
+%-------------------------------------------------------------------------------
+%   NON-CONTENT PAGES
+%-------------------------------------------------------------------------------
+\maketitle
+%\Declaration
+\Certificate
+%
+\begin{abstract}
+Vehicular mobility is a very important part of the network industry. As the world changed, every wired communication replaced by wireless communication. That's why VANET is very important. For being wireless it has lots of facilities. Also, have some drawbacks about the security issue. This type of network is affected by network attack like blackhole attack. Without taking steps against this issue the vanet is not reliable. A new blackhole attack detection technique is proposed which uses AODV as routing protocol. It detects the blackhole nodes and sends the information to the admin of the network. We also compare the blackhole attack with a flawless network.
+
+\end{abstract}
+
+\begin{acknowledgements}
+
+At first, I want to express gratitude to the Almighty Allah for His endless kindness for keeping me mentally and physically fit to complete this sophisticated task.
+
+I would like to express my special thanks of gratitude to my honorable supervisor   Md. Rakib Hasan, who gave me the golden opportunity to do this wonderful project on this topic. His sage advice, insightful criticisms, and patient encouragement aided the completion of this project in innumerable ways. I came to know about so many new things, I am greatly thankful to him.
+
+I am also thankful to \cosupervisor, Head of Department, \cosupervisorinstitute for the motivation and inspiration that triggered me for this thesis work.
+
+I would like to express my gratitude to all the teachers in my department for building me to do this work.
+
+
+\end{acknowledgements}
+
+
+
+
+
+%-------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%-------------------------------------------------------------------------------
+
+
+% The page style headers have been "empty" all this time, now use the "fancy"
+% headers as defined before to bring them back
+\pagestyle{fancy}
+
+\lhead{\emph{Contents}} % Set the left side page header to "Contents"
+\tableofcontents % Write out the Table of Contents
+
+% Set the left side page header to "List of Figures"
+\lhead{\emph{List of Figures}}
+\listoffigures % Write out the List of Figures
+
+% Set the left side page header to "List of Tables"
+\lhead{\emph{List of Tables}}
+\listoftables % Write out the List of Tables
+\clearpage  % Start a new page
+\lhead{\emph{LIST OF ABBREVIATION }}  % Set the left side page header to "Abbreviations"
+\listofsymbols{ll}  % Include a list of Abbreviations (a table of two columns)
+{
+% \textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
+\textbf{NetAnim} & \textbf{NET}work \textbf{ANIM}ator \\
+
+\textbf{VANET} & \textbf{V}ehicular \textbf{A}d-hoc \textbf{NET}work  \\
+
+\textbf{AODV} & \textbf{A}d-hoc \textbf{O}n-Demand \textbf{D}istance  \textbf{V}ector  \\
+
+\textbf{RREQ} & \textbf{R}outing \textbf{REQ}uest \\
+
+\textbf{SUMO} & \textbf{S}imulation of \textbf{U}rban \textbf{MO}bility \\
+
+\textbf{NS2} & \textbf{N}etwork \textbf{S}imulator \textbf{2}  \\
+
+\textbf{IDS} & \textbf{I}ntrusion \textbf{D}etection \textbf{S}ystem  \\
+
+\textbf{IPS} & \textbf{I}ntrusion \textbf{P}revention \textbf{S}ystem  \\
+
+\textbf{OSM} & \textbf{O}pen \textbf{S}treet \textbf{M}ap  \\
+}
+
+\clearpage
+%% ----------------------------------------------------------------
+
+
+%-------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%-------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{fancy} % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+\input{Chapters/Chapter1}
+\input{Chapters/Chapter2}
+\input{Chapters/Chapter3}
+\input{Chapters/Chapter4}
+\input{Chapters/Chapter5}
+%\input{Chapters/Chapter6}
+%\input{Chapters/Chapter7}
+
+%-------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%-------------------------------------------------------------------------------
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices
+% folder
+% Uncomment the lines as you write the Appendices
+
+%\input{Appendices/AppendixA}
+%\input{Appendices/AppendixB}
+%\input{Appendices/AppendixC}
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\backmatter
+
+%-------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%-------------------------------------------------------------------------------
+%\input{Bibliography.bib}
+
+\label{References}
+\lhead{\emph{References}}  % Change the left side page header to "Bibliography"
+\bibliographystyle{unsrtnat}  % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+\bibliography{Bibliography}  % The references (bibliography) information are stored in the file named "Bibliography.bib"
+%-------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%-------------------------------------------------------------------------------
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices
+% folder
+% Uncomment the lines as you write the Appendices
+
+\input{Appendices/AppendixA}
+%\input{Appendices/AppendixB}
+%\input{Appendices/AppendixC}
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+
+
+
+\end{document}

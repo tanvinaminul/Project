@@ -1,0 +1,103 @@
+\begin{thebibliography}{15}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[qn()]{qn}
+The new york times, 2016. the bangladeshi traffic jam that never ends.
+
+\bibitem[qa:()]{qa:1}
+Hongmei deng, wei li and d. p. agrawal, "routing security in wireless ad hoc
+  networks," in ieee communications magazine, vol. 40, no. 10, pp. 70-75, oct.
+  2002.
+
+\bibitem[Sun et~al.(2003)Sun, Guan, Chen, and Pooch]{qa:2}
+Bo~Sun, Yong Guan, Jian Chen, and Udo~W Pooch.
+\newblock Detecting black-hole attack in mobile ad hoc networks.
+\newblock 2003.
+
+\bibitem[Ramaswamy et~al.(2003)Ramaswamy, Fu, Sreekantaradhya, Dixon, and
+  Nygard]{qa:3}
+Sanjay Ramaswamy, Huirong Fu, Manohar Sreekantaradhya, John Dixon, and
+  Kendall~E Nygard.
+\newblock Prevention of cooperative black hole attack in wireless ad hoc
+  networks.
+\newblock In \emph{International conference on wireless networks}, volume 2003,
+  pages 570--575, 2003.
+
+\bibitem[Su(2011)]{qa:4}
+Ming-Yang Su.
+\newblock Prevention of selective black hole attacks on mobile ad hoc networks
+  through intrusion detection systems.
+\newblock \emph{Computer Communications}, 34\penalty0 (1):\penalty0 107--117,
+  2011.
+
+\bibitem[Hu et~al.(2002)Hu, Johnson, and Perrig]{qa:5}
+Yih-Chun Hu, David~B Johnson, and Adrian Perrig.
+\newblock Secure efficient ad hoc distance vector routing.
+\newblock In \emph{the Proceedings of the Fourth IEEE Workshop on Mobile
+  Computing Systems and applications (WMCSA’02)}, 2002.
+
+\bibitem[Hu et~al.(2005)Hu, Perrig, and Johnson]{qa:6}
+Yih-Chun Hu, Adrian Perrig, and David~B Johnson.
+\newblock Ariadne: A secure on-demand routing protocol for ad hoc networks.
+\newblock \emph{Wireless networks}, 11\penalty0 (1-2):\penalty0 21--38, 2005.
+
+\bibitem[Sanzgiri et~al.(2005)Sanzgiri, LaFlamme, Dahill, Levine, Shields, and
+  Belding-Royer]{qa:7}
+Kimaya Sanzgiri, Daniel LaFlamme, Bridget Dahill, Brian~Neil Levine, Clay
+  Shields, and Elizabeth~M Belding-Royer.
+\newblock Authenticated routing for ad hoc networks.
+\newblock \emph{IEEE Journal on selected areas in communications}, 23\penalty0
+  (3):\penalty0 598--610, 2005.
+
+\bibitem[Sharma et~al.(2018)Sharma, Zaveri, Yadav, and Pande]{qa:8}
+Aagrah Sharma, Dhruv Zaveri, Gitanshu Yadav, and Suyog Pande.
+\newblock Security and qos aware dynamic clustering (sqadc) routing protocol
+  for crn: A review.
+\newblock 2018.
+
+\bibitem[Manickam and Shanmugavel(2007)]{qa:9}
+J~Martin~Leo Manickam and S~Shanmugavel.
+\newblock Providing routing security using ros protocol in manet and
+  performance comparison with aodv.
+\newblock \emph{Information Technology Journal}, 6\penalty0 (5):\penalty0
+  656--663, 2007.
+
+\bibitem[Marshall et~al.(2003)Marshall, Thakur, and Yasinsac]{qa:10}
+John Marshall, Vikram Thakur, and Alec Yasinsac.
+\newblock Identifying flaws in the secure routing protocol.
+\newblock In \emph{Conference Proceedings of the 2003 IEEE International
+  Performance, Computing, and Communications Conference, 2003.}, pages
+  167--174. IEEE, 2003.
+
+\bibitem[Juwad and Al-Raweshidy(2008)]{qa:11}
+Mohaned Juwad and Hamed~S Al-Raweshidy.
+\newblock Experimental performance comparisons between saodv \& aodv.
+\newblock In \emph{2008 Second Asia International Conference on Modelling \&
+  Simulation (AMS)}, pages 247--252. IEEE, 2008.
+
+\bibitem[Papadimitratos and Haas(2003)]{qa:12}
+Panagiotis Papadimitratos and Zygmunt~J Haas.
+\newblock Secure link state routing for mobile ad hoc networks.
+\newblock In \emph{2003 Symposium on Applications and the Internet Workshops,
+  2003. Proceedings.}, pages 379--383. IEEE, 2003.
+
+\bibitem[Lu and Pooch(2002)]{qa:13}
+Bin Lu and Udo~W Pooch.
+\newblock Cooperative security-enforcement routing in mobile ad hoc networks.
+\newblock In \emph{4th International Workshop on Mobile and Wireless
+  Communications Network}, pages 157--161. IEEE, 2002.
+
+\bibitem[Gao et~al.(2020)Gao, Luo, Fang, Fan, Zhao, Xue, and
+  Shu]{gao2020cumulative}
+Haoyu Gao, Mingyao Luo, Kun Fang, Bowen Fan, Jiawei Zhao, Yunfei Xue, and Chang
+  Shu.
+\newblock Cumulative sum analysis of the learning curve for the preclosure
+  technique using proglide.
+\newblock \emph{Interactive CardioVascular and Thoracic Surgery}, 30\penalty0
+  (2):\penalty0 280--286, 2020.
+
+\end{thebibliography}
