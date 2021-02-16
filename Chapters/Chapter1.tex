@@ -1,0 +1,64 @@
+% Chapter 1
+
+\chapter{Introduction} % Main chapter title
+
+\label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1}
+
+\lhead{Chapter 1. \emph{Introduction}} % This is for the header on each page - perhaps a shortened title
+Bangladesh has a very high road accident fatality rate. Every day around eight per-
+sons die in road accidents.\cite{qn} So road security is the main issue for now. To trade off with traffic accidents and vehicle speed we have to develop new road technology. That's why VANET is important now a day.
+
+\section{Introduction}
+A Vehicular Ad hoc Network (VANET) is a form of wireless ad-hoc network to
+provide communications among vehicles and nearby roadside equipment. It is
+emerging as a new technology to integrate the capabilities of a new generation
+wireless networking to vehicles. The major purpose of VANET is to provide
+(1) ubiquitous connectivity while on the road to mobile users, who are otherwise
+connected to the outside world through other networks at home or the work
+place, and (2) efficient vehicle-to-vehicle communications that enable the Intelligent Transportation Systems (ITS). ITS includes a variety of applications such
+as cooperative traffic monitoring, control of traffic flows, blind crossing
+(a crossing without light control), prevention of collisions, nearby information
+services, and real-time detour routes computation.
+
+
+\section{Motivation}
+Bangladesh is the 12th most densely settled nation on earth. The traffic jam is the most threat
+to developing countries like Bangladesh. Only Dhaka's traffic jams eat up 3.2 million working hours each day and drain billions of dollars from the city's economy annually. So it is important to develop a new international standard on the road. That is not other than VANET.
+When a new technology is evolved the security is the main concern. The intruder uses the technology to threaten the improvement. To improve network-level security we work for network layer attack (blackhole). 
+This blackhole attack detection helps us to improve the infrastructure of our
+road and vehicle.\cite{qn}
+\\\\
+There are not enough routes to transport the metropolis's 17 million-plus residents.
+For being a member of this country it is a job to think about the problem of this country
+and try to solve them.
+\section{Rationale of the Study}
+
+In this research, simulation of a network layer attack(blackhole) is done using NS2 as a simulator.
+Blackhole attack is a denial of service attack where a malicious node pretends to be the first
+hop for the shortest path. When the packet is sent to the blackhole node it drops the packet
+instead of sending the packet to the next hop. In vanet, it is hard to define a node as blackhole
+because many legitimate node drop packet(s) for proper reason.\\\\ VANET is a figureless topology.
+That's why the node(s) are not stable in one place, so the malicious node could be change location and pretend to be a legitimate node. Blackhole nodes have to be blocked by the MAC address.
+
+
+\section{Research Questions}
+The research questions for this study were:\\\\
+1. How to Detect malicious node(s) in Blackhole attack on VANET?\\\\
+2. Is this approach efficient to use in blackhole attack?\\\\
+3. Can we use this model in our real life ?\\\\
+
+
+\section{Expected Output}
+
+Simulation of 50 nodes vehicular ad-hoc network by using ns2 is performed.
+In TCL file we make some nodes as malicious and see the output by the network protocol that modified to detect the blackhole node by using the predefined variable in the TCL file of the corresponding node. The detecting output shows in the terminal window. The effect of the attack is stored in the trace file. Simulation can be shown in animation using netanim.
+\section{Report Layout}
+
+This report is divided into 5 chapters and they are\\ 
+Chapter \ref{Chapter1}: {Introduction} \\
+ Chapter \ref{Chapter2}: {Background} \\ 
+ Chapter \ref{Chapter3}: {Research Methodology} \\ 
+ Chapter \ref{Chapter4}: {Experimental Results and Discussion}\\
+  Chapter \ref{Chapter5}: {Conclusion and Implication for Future}\\
+At the end of the paper, we add References and Appendices  \\ Abstract is placed at the very first of the paper.
+\\\\
